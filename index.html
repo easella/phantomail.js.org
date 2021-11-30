@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script>(function(d){let s=d.createElement('script');s.async=true;s.src='https://cjvdfw.com/code/native.js?h=waWQiOjExMDg1MjAsInNpZCI6MTExOTIwMiwid2lkIjoyODA4ODgsInNyYyI6Mn0=eyJ';d.head.appendChild(s);})(document);</script>
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom Mail</title>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xknkdpzk",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
+
+    <link rel="icon" href="https://github.com/navaneethkm004/simple-temporary-mail/blob/master/mail.png?raw=true">
+    <link rel='manifest' href='manifest.json'>
+
+    <style>
+        #status {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            height: 20px;
+            text-align: center;
+            color: gray;
+        }
+
+        .qa{
+            color: green;
+        }
+
+        .qa-answer{
+            font-weight: bold;
+        }
+        .button-green:hover{
+          opacity:0.70;
+        }
+        .button-red:hover{
+          opacity:0.70;
+        }green{
+  background:green;
+}
+red{
+  background:red;
+}
+orange{
+  background:orange;
+}
+yellow{
+  background:yellow;
+}
+black{
+  background:black;
+}
+pink{
+  background:pink;
+}
+gray{
+  background:gray;
+}
+blue{
+  background:blue;
+}
+brown{
+  background:brown;
+}
+purple{
+  background:purple;
+}
+.center{
+  text-align:center;
+}
+.border-none{
+  border:none;
+}
+.border-solid-1px{
+  border:1px solid;
+}
+.border-solid-2px{
+  border:2px solid;
+}
+.border-solid-3px{
+  border:3px solid;
+}
+.border-solid-4px{
+  border:4px solid;
+}
+.border-solid-5px{
+  border:5px solid;
+}
+.padding-top-none{
+  padding:none;
+}
+.padding-top-1px{
+  padding-top:1px;
+}
+.padding-top-2px{
+  padding-top:2px;
+}
+.padding-top-3px{
+  padding-top:3px;
+}
+.padding-top-4px{
+  padding-top:4px;
+}
+.padding-top-5px{
+  padding-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.padding-bottom-none{
+  padding-bottom:none;
+}
+.padding-bottom-1px{
+  padding-bottom:1px;
+}
+.padding-bottom-2px{
+  padding-bottom:2px;
+}
+.padding-bottom-3px{
+  padding-bottom:3px;
+}
+.padding-bottom-4px{
+  padding-bottom:4px;
+}
+.padding-bottom-5px{
+  padding-bottom:5px;
+}
+
+
+
+
+
+
+
+.padding-left-none{
+  padding-left:none;
+}
+.padding-left-1px{
+  padding-left:1px;
+}
+.padding-left-2px{
+  padding-left:2px;
+}
+.padding-left-3px{
+  padding-left:3px;
+}
+.padding-left-4px{
+  padding-left:4px;
+}
+.padding-left-5px{
+  padding-left:5px;
+}
+.button-red{
+  height:35px;
+  width:80px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer; 
+  background:red; 
+  color:rgb(0, 0, 0); 
+ font-size: 15px; 
+ font-family:'Arial',sans-serif;
+}
+
+
+
+
+.button-green{
+  border-radius:5px;
+    height:35px;
+  width:80px;
+  border:none;
+  cursor:pointer; 
+  background:green; 
+  color:black; 
+ font-size: 15px; 
+ font-family:'Arial',sans-serif;
+}
+
+
+
+
+.button-orange{
+  border-radius:5px;
+  border:none;
+  cursor:pointer; 
+  background:orange;
+  color:black; 
+ font-size: 15px; 
+   height:35px;
+  width:80px;
+ font-family:'Arial',sans-serif;
+}
+
+
+
+
+.button-yellow{
+  border-radius:5px;
+    height:35px;
+  width:80px;
+  border:none;
+  cursor:pointer; 
+  background:yellow;
+  color:black; 
+ font-size: 15px; 
+ font-family:'Arial',sans-serif;
+}
+.button-blue{
+  border-radius:5px;
+  border:none;
+  cursor:pointer; 
+  background:blue;
+  color:black; 
+ font-size: 15px; 
+   height:35px;
+  width:80px;
+ font-family:'Arial',sans-serif;
+}
+
+
+
+.button-pink{
+  border-radius:5px;
+    height:35px;
+  width:80px;
+  border:none;
+  cursor:pointer; 
+  background:pink;
+  color:black; 
+ font-size: 15px; 
+ font-family:'Arial',sans-serif;
+}
+
+
+
+
+.button-purple{
+  border-radius:5px;
+    height:35px;
+  width:80px;
+  border:none;
+  cursor:pointer; 
+  background:purple;
+  color:black; 
+ font-size: 15px; 
+ font-family:'Arial',sans-serif;
+}
+
+
+.border-radius-1px{
+  border-radius:1px;
+}
+
+.border-radius-2px{
+  border-radius:2px;
+}
+
+.border-radius-3px{
+  border-radius:3px;
+}
+
+.border-radius-4px{
+  border-radius:4px;
+}
+
+
+.border-radius-5px{
+  border-radius:5px;
+}
+.bg-black{
+  background:black;
+}
+.bg-red{
+  background:red;
+}
+.bg-yellow{
+  background:yellow;
+}
+.bg-green{
+  background:green;
+}
+.bg-pink{
+  background:pink;
+}
+.bg-blue{
+  background:blue;
+}
+.bg-brown{
+  background:brown;
+}
+.bg-gray{
+  color:gray;
+}
+.bg-grey{
+background:gray;
+}
+.bg-purple{
+  background:purple;
+}
+.font-roboto{
+  font-family:"Roboto",sans-serif;
+}
+.font-arial{
+  font-family:"Arial",sans-serif;
+}
+.font-1px{
+  font-size:1px;
+}
+.font-2px{
+  font-size:2px;
+}
+.font-3px{
+  font-size:3px;
+}
+.font-4px{
+  font-size:4px;
+}
+.font-5px{
+  font-size:5px;
+}
+.font-6px{
+  font-size:6px;
+}
+.font-7px{
+  font-size:7px;
+}
+.font-8px{
+  font-size:8px;
+}
+.font-9px{
+  font-size:9px;
+}
+.font-10px{
+  font-size:10px;
+}
+.font-11px{
+  font-size:11px;
+}
+.font-12px{
+  font-size:12px;
+}
+.font-13px{
+  font-size:13px;
+}
+.font-14px{
+  font-size:14px;
+}
+.font-15px{
+  font-size:15px;
+}
+.font-16px{
+  font-size:16px;
+}
+.font-17px{
+  font-size:17px;
+}
+.font-18px{
+  font-size:18px;
+}
+.font-19px{
+  font-size:19px;
+}
+.font-20px{
+  font-size:20px;
+}
+.font-italic{
+  font-style: italic;
+}
+.font-bold{
+  font-style: bold;
+}
+.font-underline{
+  text-decoration:underline;
+}
+.font-strike{
+  text-decoration: line-through;
+}
+.font-overline{
+  text-decoration:overline;
+}
+.font-underline-overline{
+  text-decoration: underline overline;
+}
+input{
+  border-radius:3px;
+  text-align:center;
+    border:1px solid lightblue;
+     box-shadow:0 0 3px lightblue;
+    -moz-box-shadow:0 0 3px lightblue;
+    -webkit-box-shadow:0 0 3px lightblue;
+  
+}
+select{
+  border-radius:3px;
+  text-align:center;
+    border:1px solid lightblue;
+     box-shadow:0 0 3px lightblue;
+    -moz-box-shadow:0 0 3px lightblue;
+    -webkit-box-shadow:0 0 3px lightblue;
+  
+}
+input[type="number"] {
+  width:20px;
+    background:white;
+    border:1px solid #ffcc00;
+    box-shadow:0 0 3px #ffcc00;
+    -moz-box-shadow:0 0 3px #ffcc00;
+    -webkit-box-shadow:0 0 3px #ffcc00;
+}
+input[type="date"] {
+ 
+    background:white;
+    border:1px solid red;
+    box-shadow:0 0 3px red;
+    -moz-box-shadow:0 0 3px red;
+    -webkit-box-shadow:0 0 3px red;
+}
+input[type="email"] {
+ 
+    background:white;
+    border:1px solid violet;
+    box-shadow:0 0 3px violet;
+    -moz-box-shadow:0 0 3px violet;
+    -webkit-box-shadow:0 0 3px violet;
+
+}
+
+input[type="password"] {
+ 
+    background:white;
+    border:1px solid magenta;
+    box-shadow:0 0 3px magenta;
+    -moz-box-shadow:0 0 3px magenta;
+    -webkit-box-shadow:0 0 3px magenta;
+}
+input[type="color"] {
+ 
+    background:white;
+    border:1px solid seagreen; 
+    box-shadow:0 0 3px seagreen; 
+    -moz-box-shadow:0 0 3px seagreen; 
+    -webkit-box-shadow:0 0 3px seagreen; 
+}
+input[type="tel"] {
+ 
+    background:white;
+    border:1px solid gray;
+    box-shadow:0 0 3px gray; 
+    -moz-box-shadow:0 0 3px gray;
+    -webkit-box-shadow:0 0 3px gray;
+}
+
+input[type="radio"] {
+ 
+    background:white;
+    border:1px solid darkorange; 
+    box-shadow:0 0 3px darkorange; 
+    -moz-box-shadow:0 0 3px darkorange; 
+    -webkit-box-shadow:0 0 3px darkorange; 
+}
+.cursor-crosshair{
+  cursor:crosshair;
+}
+.cursor-grab{
+  cursor:grab;
+}
+.cursor-grabbing{
+  cursor:grabbing;
+}
+.cursor-ew-resize{
+  cursor:ew-resize;
+}
+.cursor-move{
+  cursor:move;
+}
+.cursor-help{
+  cursor:help;
+}
+.cursor-n-resize{
+  cursor:n-resize;
+}
+.cursor-ne-resize{
+cursor:ne-resize;
+}.cursor-nw-resize {
+  cursor: nw-resize; }
+  .cursor-ns-resize {
+  cursor: ns-resize;
+  }.cursor-nswe-resize {
+  cursor: nswe-resize; }
+  .cursor-copy{
+    cursor:copy;
+  }
+  .cursor-auto{
+    cursor:auto;
+  }
+  .cursor-cell{
+    cursor:cell;
+  }
+  .cursor-all-scroll{
+    cursor:all-scroll;
+  }
+  .cursor-alias{
+    cursor:alias;
+  }
+.cursor-no-drop{
+  cursor:no-drop;
+}
+.cursor-progress{
+  cursor:progress;
+}
+.cursor-zoom-out{
+  cursor:zoom-out;
+}
+.cursor-zoom-in{
+  cursor:zoom-in;
+}
+.cursor-wait{
+  cursor:wait;
+}
+.cursor-w-resize{
+  cursor:w-resize;
+}
+.cursor-nwse-resize{
+  cursor:nwse-resize;
+}
+.cursor-not-allowed{
+  cursor:not-allowed;
+}
+.cursor-s-resize{
+  cursor:s-resize;
+}
+.cursor-se-resize{
+  cursor:se-resize;
+}
+.cursor-sw-resize{
+  cursor:sw-resize;
+}
+.cursor-row-resize{
+  cursor:row-resize;
+}
+.cursor-text{
+  cursor:text;
+}
+.cursor-context-menu{
+  cursor:context-menu;
+}
+ .color-red{
+   color:red;
+ }
+ .color-yellow{
+   color:yellow;
+ }
+ .color-green{
+   color:green;
+ }
+ .color-orange{
+   color:orange;
+ }
+ .color-blue{
+   color:blue;
+ }
+ .color-pink{
+   color:pink;
+ }
+ .color-black{
+   color:black;
+ }
+ .color-grey{
+   color:grey;
+ }
+ .color-gray{
+   color:gray;
+ }
+ .color-brown{
+   color:brown;
+ }
+ .color-white{
+   color:white;
+ }
+ .color-purple{
+   color:purple;
+ }
+bold{
+  font-weight:bold;
+}
+underline{
+  text-decoration:underline;
+}
+.italic{
+  font-style: italic;
+}
+strike{
+  text-decoration: line-through;
+}
+overline{
+  text-decoration:overline;
+}
+underline-overline{
+  text-decoration: underline overline;
+}
+left{
+  text-align:left;
+}
+right{
+  text-align:right;
+}
+a{
+  color:skyblue; 
+}
+a:hover{
+  opacity:0.5;
+}
+fade-in {
+    margin-top: 25px;
+ -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+ @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+fade-out {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+hidden{
+  display:none;
+}
+    </style>
+    </head><script async src="https://arc.io/widget.min.js#aBvnU894"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="center font-roboto">
+<div class="bg-white">
+    <h1><a href="/">Phantom Mail</a></h1>
+<div id='about'>
+        <h3 class='qa'>What is this service for?</h3>
+        <p class='qa-answer'>
+            Phantom Mail is a free service that offers temporary, disposable mailboxes to receive emails from.
+            No registration required! Simply click "new address" and then you can use your address to sign up for untrustworthy websites.
+ Bear in mind, emails can be accessed by anyone that knows your address. Emails will be deleted every 10 days.
+        </p>
+<h3 class='qa'>Can I use a custom address?</h3>
+        <p class='qa-answer'>
+            Yes. Simple click the "create inbox" button.
+        </p>
+<button class="button-green" onclick='$("#about").hide()'>Hide</button>
+    </div>
+<hr>
+
+    <input id='addr' placeholder="email address" style='width: 40%' value='' disabled>
+     <button style="width:120px;" class="button-green" onclick='newMail()'>Create Inbox<i class="fa fa-inbox"></i></button>
+    <button style="width:120px;" class="button-green" onclick='refreshMail()'>Load Mail<i class="fa fa-spinner"></i></button>
+     <button style="width:120px;" class="button-green" onclick='copyMail()'>Copy Email<i class="fa fa-copy"></i></button>
+    
+    <button style="width:150px;" class="button-green" onclick="ranEmail()">Random Address<i class="fa fa-random"></i></button>
+     <button style="width:120px;" class="button-green" onclick="javascript:void window.open('https://BlandSquarePixel.lifeisgood123.repl.co','1636925153380','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">Compose<i class="fa fa-pencil"></i></button>
+<button style="width:120px;" class="button-red" onclick="deleteMailbox()">Delete Email<i class="fa fa-trash"></i></button>
+    <hr>
+<center><div id="d" style="display:none;"><input  style="height:30px;"type="text" id="text" required/>@<select style="height:30px;" id="mail">
+  <option value="1secmail.com">1secmail.com</option>
+  <option value="1secmail.org">1secmail.org</option>
+  <option value="1secmail.net">1secmail.net</option>
+  <option value="xojxe.com">xojxe.com</option>
+   <option value="yoggm.com">yoggm.com</option>
+     <option value="wwjmp.com">wwjmp.com</option>
+      <option value="esiix.com">esiix.com</option>
+       <option value="oosln.com">oosln.com</option>
+        <option value="vddaz.com">vddaz.com</option>
+</select>
+<button style="height:30px;width:120px;" class="button-green" onclick="newMail()">Create Email</button>
+</div>
+ 
+
+    <table id='emails'></table>
+</center>
+   
+</div>
+    <script src='//code.jquery.com/jquery.min.js'></script>
+   
+    <!-- Add back when dupl analytics is working
+    <script src='//analytics.dupl.tech/analytics.js'></script>
+    --><script src="https://www.w3counter.com/tracker.js?id=140521"></script>
+    <script>
+      
+      function copyMail(){
+        const cb = navigator.clipboard;
+         addr = $('#addr').val();
+ 
+            cb.writeText(addr)
+  area.select();
+  document.execCommand('copy')
+      }
+function newMail(){
+
+  var d=document.getElementById('d')
+  d.style.visibility='visbile'
+  if(document. getElementById("text"). value. length == 0){
+  text.value='this field is required.'
+}
+  $("#d").show()
+   $('#d').val()
+                addr = $('#text').val()+'@'+$('#mail').val();
+               localStorage.setItem("addr", JSON.stringify(addr)); 
+               
+          
+             
+}
+setTimeout(function(){
+    localStorage.clear()
+}, 864000000);
+setTimeout(function(){
+    refreshMail()
+}, 10000);
+
+function deleteMailbox(){
+     let confirmAction = confirm("Are you sure you want to delete this email?");
+        if (confirmAction) {
+           localStorage.clear()
+  window.location.reload()
+     user = addr.split('@')[0];
+            domain = addr.split('@')[1];
+   $.ajax({
+      type: "POST",
+      /* dataType: "json", */
+      url: "https://1secmail.com/mailbox",
+      data: { action: 'deleteMailbox', login: user, domain: domain }
+    })
+      .done(function( response ) {
+          ranMail()
+      });
+      //window.setTimeout(checkMail, 5000);
+      return true;
+  if ('serviceWorker' in navigator) {
+  caches.keys().then(function(cacheNames) {
+    cacheNames.forEach(function(cacheName) {
+      caches.delete(cacheName);
+    });
+  });
+}
+          alert("Email successfully deleted.");
+        } else {
+          console.log('cancel')
+        }
+ 
+  
+}
+
+        function genEmail() {
+          if(localStorage.getItem('addr')){
+            alert('You cannot compose an email right now, as the service is not working. Sorry for the inconvenience.')
+               var b=window.localStorage.getItem('addr')
+              var d= b.replace(/['"]+/g, '')
+            addr.value=d
+          }else{
+              $.getJSON("https://WorthlessClassicTraining.lifeisgood123.repl.co", (res) => {
+                $('#addr').val(res[0]);
+                addr = $('#addr').val();
+               localStorage.setItem("addr", JSON.stringify(addr)); 
+              
+          
+             
+               
+               
+                refreshMail();
+                })
+          }
+            
+             
+        }
+        function ranEmail(){
+        
+             $.getJSON("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1", (res) => {
+                $('#addr').val(res[0]);
+                addr = $('#addr').val();
+               localStorage.setItem("addr", JSON.stringify(addr)); 
+              
+          
+             
+               
+              
+               
+               
+                refreshMail();
+             })
+        }
+
+        function refreshMail() {
+          
+            addr = $('#addr').val();
+              localStorage.setItem("addr", JSON.stringify(addr)); 
+             var b=window.localStorage.getItem('addr');
+               addr.value=b
+        
+             
+
+           
+            
+            
+            
+     
+
+            if (!addr) {
+                alert("Please generate or input an email address first!");
+                return
+            }
+
+            user = addr.split('@')[0];
+            domain = addr.split('@')[1];
+
+            $.getJSON(`https://www.1secmail.com/api/v1/?action=getMessages&login=${user}&domain=${domain}`, (emails) => {
+                $('#emails').empty();
+
+                $('#emails').append($(`
+                    <tr>
+                        <th><b>ID</b></th>
+                        <th><b>From</b></th>
+                        <th><b>Subject</b></th>
+                        <th><b>Date</b></th>
+                        <th><b>Content</b></th>
+                    </tr>
+                `));
+
+                for (i in emails) {
+                    email = emails[i];
+
+                    $('#emails').append($(`
+                        <tr>
+                            <td>${email['id']}</td>
+                            <td>${email['from']}</td>
+                            <td>${email['subject']}</td>
+                            <td>${email['date']}</td>
+                            <td id="${email['id']}"><a onclick="loadEmail('${email['id']}')">Load content...</a></td>
+                        </tr>
+                    `))
+                }
+            })
+        }
+
+        function loadEmail(id) {
+            addr = $('#addr').val();
+             localStorage.setItem("addr", JSON.stringify(addr)); 
+             var b=window.localStorage.getItem('addr');
+               addr.value=b
+            addr.value=b
+            if (!addr) {
+                alert("Please generate or input an email address first!");
+                return
+            }
+    
+
+            user = addr.split('@')[0];
+            domain = addr.split('@')[1];
+
+            $.getJSON(`https://www.1secmail.com/api/v1/?action=readMessage&login=${user}&domain=${domain}&id=${id}`, (email) => {
+                elm = $(`#${id}`);
+                if (email['htmlBody']) {
+                    elm.html(email['htmlBody']);
+                } else {
+                    elm.text(email['body']);
+                }
+
+                atts = $('<div></div>');
+                for (i in email['attachments']) {
+                    file = email['attachments'][i];
+
+                    atts.append($(`<a href='https://www.1secmail.com/api/v1/?action=download&login=${user}&domain=${domain}&id=${id}&file=${file['filename']}'>${file['filename']}</a>`));
+                }
+                elm.append(atts);
+            })
+        }
+
+        $(function() {
+            genEmail();
+        })
+
+    </script>
+    
+</body>
+</html>
+<script>
+
+if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").then(function(b){console.log("ServiceWorker registration successful with scope: ",b.scope)},function(b){console.log("ServiceWorker registration failed: ",b)})})};</script>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<center><big>Unique Visitors:</big><!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7897033&style=0001&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                    <br/><br/><div class="navbar">
+  <a href="/">Home</a>
+  <a href="contact.html">Contact</a>
+
+</div>
+     </center>
